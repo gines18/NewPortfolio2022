@@ -21,7 +21,6 @@ body {
     background-image: url(./img/software-developer-gb520e1c22_1280.jpeg);
     background-size: cover;
     background-position: center;
-
 }
 
 /* Navbar */
@@ -288,7 +287,6 @@ body {
         background-image: url(./img/travel.jpeg);
         height: 40vh;
         background-size: cover;
-        
     }
 
     .gym {
@@ -297,22 +295,18 @@ body {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-      
     }
 
     .hair-studio {
         grid-area: hair-studio;
         background-image: url(./img/hair.jpeg);
         background-size: cover;
-     
     }
 
     .restaurant {
         grid-area: restaurant;
         background-image: url(./img/restaurant.jpeg);
         background-size: cover;
-       
-      
     }
 }
 
@@ -391,13 +385,11 @@ justify-content: flex-end;
     z-index: 0;
   }
 
-
 .top h4{
     display: flex;
     justify-content: center;
     color: var(--font-color);
     border: 1px solid lime;
-    
     font-size: 50px;
     font-family: ;
 }
@@ -415,13 +407,11 @@ justify-content: flex-end;
         z-index: 0;
       }
 
-
       .top h4{
         display: flex;
         justify-content: center;
         color: var(--font-color);
         border: 1px solid lime;
-        border-radius: ;
         font-size: 30px;
         
     }

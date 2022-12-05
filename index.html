@@ -38,7 +38,7 @@
                        
                     </div>
                     <div class="top">
-                        <h4>< HTML > - Start fresh.</h4>
+                        <h4>< HTML > Start fresh.</h4>
                        </div>
             </section>
         </header>
@@ -86,11 +86,35 @@
 
 
          <!-- Contact -->
+
+         <div class="Contact-header" id="Contact">
+            <h4>Contact form</h4>
+        </div>
+
         <footer>
 
             <section class="Contact" id="Contact">
-                <div class="empty"></div>
-                <div class="email"><h4>Contact: myEmail@gmail.com</h4></div>
+                <form action="#">
+<label for="fname">First Name</label>
+<input type="text" id="fname" name="firstname" placeholder="Your name">
+
+<label for="lname">Last Name</label>
+<input type="text" id="lname" name="lastname" placeholder="Your last name">
+
+<label for="country">Country</label>
+<select name="country" id="country">
+    <option value="australia">Australia</option>
+    <option value="Canada">Canada</option>
+    <option value="USA">United Kingdom</option>
+</select>
+
+<label for="subject">Subject</label>
+<textarea name="subject" id="subject" cols="30" rows="10" placeholder="Message .." style="height: 200px"></textarea>
+
+<input type="submit" value="Submit">
+
+                </form>
+            </div>           
             </section>
         </footer>
     </main>

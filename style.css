@@ -233,8 +233,6 @@ body {
     background-image: url(./img/gym.jpeg);
     background-size: cover;
     background-position: center;
- 
-    
 }
 
 .hair-studio {
@@ -260,13 +258,14 @@ body {
 .container2 div {
     display: flex;
     justify-content: center;
-    align-items: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
 
 .container2 div p {
     display: flex;
     justify-content: center;
-    align-items: center;
     font-family: 'Times New Roman', Times, serif;
     color: var(--font-color);
     background-color: #002B5B;
@@ -277,10 +276,12 @@ body {
     text-decoration: none;
     color: var(--font-color);
 }
-.travel p {
+ .travel p{
+    display: flex;
     width: 130px;
     border-radius: 2rem;
     cursor: pointer;
+    align-items: center;
 }
 
 .gym p {
